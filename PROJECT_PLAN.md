@@ -14,7 +14,7 @@ A single-binary OIDC issuer mock written in Go, providing:
 
 
 ## 1. Project Structure
-- `/cmd/oidc-mock-issuer/` — Main CLI entrypoint
+- `/main.go` — Main CLI entrypoint
 - `/internal/issuer/` — OIDC logic (discovery, JWKS, token issuance)
 - `/internal/server/` — HTTP server and routing
 - `/internal/tokens/` — Token generation/validation helpers

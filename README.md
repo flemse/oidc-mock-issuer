@@ -88,16 +88,3 @@ TOKEN=$(curl -s -X POST http://localhost:8080/token \
 
 curl -H "Authorization: Bearer $TOKEN" http://your-service/protected
 ```
-
-## Development
-
-- Tests are stored alongside implementation files
-- Lint: `golangci-lint run`
-
-## CI/CD
-
-- GitHub Actions: build, test, lint, release (see .github/workflows)
-
-## License
-
-MIT
